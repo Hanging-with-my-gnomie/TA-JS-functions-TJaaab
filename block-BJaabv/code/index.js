@@ -8,10 +8,11 @@
   * [ ] Add an additional argument to the function that takes the conversion rate of human to dog years.
 */
 
-function calculateDogAge() {
-  // Your code goes here
+function calculateDogAge(puppyage,humanage){
+    let puppyage = humanage + 7;
+    return puppyage;
 }
-
+let message = calculateDogAge();
 /*
 2. 🎖Write a function named calculateMoviesToWatch that:
   * [ ] takes 2 arguments: age, number of movies you watch every week. (take 4 weeks per month)
@@ -19,8 +20,9 @@ function calculateDogAge() {
   * [ ] Return the total number of movie you will watch.
 */
 
-function calculateMoviesToWatch() {
-  // Your code goes here
+function calculateMoviesToWatch(age,numberofmovies) {
+   let numberofmovies = 4;
+
 }
 
 /*
@@ -29,8 +31,9 @@ function calculateMoviesToWatch() {
   * [ ] Convert it to fahrenheit and return "NN°F is NN°C"
 */
 
-function celsiusToFahrenheit() {
-  // Your code goes here
+function celsiusToFahrenheit(temperature) {
+   let fahrenheit = (temperature - 100)%5;
+   return temperature;
 }
 
 /*
